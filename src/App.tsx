@@ -127,7 +127,7 @@ interface AnalysisResult {
   }>;
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyDT100UPFmKeAegyM1P6ybr-PXxiz-btXQ" });
 
 // --- Firebase Initialization ---
 const app = initializeApp(firebaseConfig);
